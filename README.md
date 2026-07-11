@@ -143,7 +143,7 @@ Food-Delivery-Time-and-Fee-Prediction/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Food-Delivery-Time-and-Fee-Prediction.git
+git clone https://github.com/EngrTayab/Food-Delivery-Time-and-Fee-Prediction.git
 ```
 
 Move into the project directory
