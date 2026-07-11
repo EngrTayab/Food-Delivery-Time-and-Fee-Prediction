@@ -47,8 +47,31 @@ st.markdown("""
     color:gray;
 }
 
+# .card{
+#     background:white;
+#     padding:20px;
+#     border-radius:15px;
+#     box-shadow:0px 4px 15px rgba(0,0,0,0.12);
+#     margin-bottom:20px;
+# }
+
+# .metric-card{
+#     background:#ffffff;
+#     padding:20px;
+#     border-radius:15px;
+#     text-align:center;
+#     box-shadow:0px 4px 12px rgba(0,0,0,0.15);
+# }
+
+# .feature-card{
+#     background:#fff;
+#     padding:15px;
+#     border-radius:12px;
+#     box-shadow:0px 2px 10px rgba(0,0,0,0.10);
+# }
 .card{
-    background:white;
+    background: var(--secondary-background-color);
+    color: var(--text-color);
     padding:20px;
     border-radius:15px;
     box-shadow:0px 4px 15px rgba(0,0,0,0.12);
@@ -56,7 +79,8 @@ st.markdown("""
 }
 
 .metric-card{
-    background:#ffffff;
+    background: var(--secondary-background-color);
+    color: var(--text-color);
     padding:20px;
     border-radius:15px;
     text-align:center;
@@ -64,7 +88,8 @@ st.markdown("""
 }
 
 .feature-card{
-    background:#fff;
+    background: var(--secondary-background-color);
+    color: var(--text-color);
     padding:15px;
     border-radius:12px;
     box-shadow:0px 2px 10px rgba(0,0,0,0.10);
